@@ -1,0 +1,29 @@
+{
+  "name": "rxstate",
+  "author": "argyleink",
+  "version": "1.0.0",
+  "description": "Turn any object or array into a reactive store",
+  "main": "dist/index.js",
+  "module": "src/index.js",
+  "scripts": {
+    "dev": "rollup -c rollup.config.dev.js",
+    "build": "rollup -c"
+  },
+  "keywords": [
+    "javascript",
+    "utility",
+    "es6"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/argyleink/rxstate.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "rxjs": "^6.2.2"
+  },
+  "devDependencies": {
+    "rollup": "^0.62.0",
+    "rollup-plugin-node-resolve": "^3.3.0"
+  }
+}
