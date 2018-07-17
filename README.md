@@ -17,6 +17,12 @@ const Counter = RxState(0, {
 // subscriber(s) always given latest, at subscription and as state changes (hot)
 Counter.store$.subscribe(count => someNode.textContent = count)
 
+// UI logic calls actions
+Counter.increment()
+Counter.increment(5)
+Counter.decrement()
+Counter.decrement(5)
+
 // optional: opt into nice state change console logs
 RxLogger('Counter', Counter.store$)
 ```
