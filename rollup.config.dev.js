@@ -4,9 +4,9 @@ import resolve from 'rollup-plugin-node-resolve'
 export default {
   input: 'src/index.js',
   output: {
-    name:     'RxState',
+    name:     'rxstatestore',
     exports:  'named',
-    file:     'demo/rxstate.js',
+    file:     'demo/rxstatestore.js',
     format:   'es'
   },
   plugins: [resolve({

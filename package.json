@@ -1,7 +1,7 @@
 {
-  "name": "rxstate",
+  "name": "rxstatestore",
   "author": "argyleink",
-  "version": "1.0.0",
+  "version": "0.0.3",
   "description": "Turn any object or array into a reactive store",
   "main": "dist/index.js",
   "module": "src/index.js",

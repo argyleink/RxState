@@ -5697,7 +5697,7 @@ function rxStore(initial_state, reducers) {
 
 function rxLogger(prefix, observable$$1) {
   return observable$$1.pipe(scan((prevState, nextState) => {
-    console.groupCollapsed(`${prefix}:`);
+    console.groupCollapsed(`${prefix}`);
 
     console.log(`%c prev state:`, `color: #999999; font-weight: bold`, prevState);
     console.log(`%c next state:`, `color: #4CAF50; font-weight: bold`, nextState);

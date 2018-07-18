@@ -4,7 +4,7 @@ import resolve from 'rollup-plugin-node-resolve'
 export default {
   input: 'src/index.js',
   output: {
-    name: 'RxState',
+    name: 'rxstatestore',
     file: 'dist/index.js',
     format: 'umd'
   },
